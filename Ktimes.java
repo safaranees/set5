@@ -6,7 +6,7 @@ class Ktimes
   {
     Scanner str=new Scanner(System.in);
     String str1=str.next();
-    System.out.println("enter the number of times to be printed");
+  
     int k=str.nextInt();
     for(int i=0;i<k;i++)
     {

@@ -17,7 +17,7 @@ class Average
     {
       sum=sum+arr[i];
     }
-    System.out.println(sum);
+   
     Average=sum/num;
     System.out.println(average);
   }

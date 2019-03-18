@@ -7,7 +7,7 @@ class Average
     Scanner s=new Scanner(System.in);
     int num=s.nextInt();
     int sum=0;
-    int average;
+  
     int[] arr=new int[10];
     for(int i=1;i<=num;i++)
     {
@@ -18,7 +18,7 @@ class Average
       sum=sum+arr[i];
     }
    
-    Average=sum/num;
+     int Average=sum/num;
     System.out.println(average);
   }
 }

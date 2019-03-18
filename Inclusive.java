@@ -8,11 +8,11 @@ class Inclusive
     int num1=num.nextInt();
     if(num1>=1 && num1<=10)
     {
-      System.out.println("Yes");
+      System.out.println("yes");
     }
     else
     {
-      System.out.println("No");
+      System.out.println("no");
     }
   }
 }

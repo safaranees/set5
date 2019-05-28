@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-class CompareString
+public class CompareString
 {
 	public static void main(String args[])
 	{

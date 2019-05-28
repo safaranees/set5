@@ -1,18 +1,19 @@
 import java.io.*;
 import java.util.*;
-class Inclusive
+public class Inclusive
 {
-  public static void main(String args[])
-  {
-    Scanner num=new Scanner(System.in);
-    int num1=num.nextInt();
-    if(num1>=1 && num1<=10)
-    {
-      System.out.println("yes");
-    }
-    else
-    {
-      System.out.println("no");
-    }
-  }
+	public static void main(String args[])
+	{
+		Scanner s=new Scanner(System.in);
+		int num=s.nextInt();
+		if(num==1 || num==2 || num==3 ||  num==4 || num==5 || num==6 ||num==7 || num==8 || num==9 )
+		{
+			System.out.println("Yes");
+		}
+		else
+		{
+			System.out.println("No");
+		}
+	}
 }
+		

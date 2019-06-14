@@ -1,8 +1,8 @@
-x=int(input())
-y=[int(i) for i in input().split()]
-x=0
-for i in range(x):
+value11=int(input())
+value21=[int(i) for i in input().split()]
+result=0
+for i in range(value11):
 	for j in range(i):
-		if y[j]<y[i]:
-			x+=y[j]
-print(x)
+		if value21[j]<value21[i]:
+			result+=value21[j]
+print(result)
